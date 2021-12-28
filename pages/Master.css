@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+}
+.header, .footer {
+    height: 10%;
+    text-align: center;
+    background: rgb(179, 168, 178);
+}
+.main {
+    height: 80%;
+}
+.header h1{
+    font-size: 1cm;
+    color: rgb(85, 24, 85);
+}
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 20%;
+    height: 100%;
+    background: rgb(129, 107, 129);
+} 
+.nav p {
+    font-size: larger;
+    text-align: center;
+}
+.nav ul {
+    font-style: italic;
+    font-size: larger;   
+}
+.section {
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    height: 100%;
+    background: rgb(235, 112, 214);
+}
+.section p{
+    text-align: left;  
+    padding-left: 20px;
+    margin-top: 30px;
+}

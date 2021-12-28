@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+}
+.header, .footer {
+    height: 10%;
+    text-align: center;
+    background: rgb(179, 168, 178);
+}
+.main {
+    height: 80%;
+    text-align: center;
+    background: red;
+}
+.header h1{
+    font-size: 1cm;
+    color: rgb(85, 24, 85);
+}
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    background: rgb(129, 107, 129);
+} 
+.section {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    background: rgb(235, 112, 214);
+}
+.main ul{
+    text-align: left;
+    color: rgb(73, 7, 73);
+}
